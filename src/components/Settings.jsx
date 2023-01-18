@@ -35,8 +35,8 @@ const Settings = () => {
 
   return (
     <div className='mt-8'>
-      <div className='container m-auto px-4 sm:px-0'>
-        <form className='flex'>
+      <div className='container m-auto px-0'>
+        <form className='block md:flex'>
           <div className='w-full'>
             <label className='text-[15px] text-[#ededed]'>Work time</label>
             <input
@@ -45,7 +45,7 @@ const Settings = () => {
               onChange={handleChangeWork}
             />
           </div>
-          <div className='ml-4 sm:ml-8 w-full'>
+          <div className='mt-4 md:mt-0 md:ml-8 w-full'>
             <label className='text-[15px] text-[#ededed]'>Break time</label>
             <input
               className='rounded-md w-full mt-1 block border border-gray-600 text-[#FFFFFE] bg-[#16161A] outline-none focus:border-[#7F5AF0] p-2'
