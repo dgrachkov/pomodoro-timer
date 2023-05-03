@@ -8,6 +8,15 @@
   font-family: 'Poppins', sans-serif;
 }
 
+* {
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
+  -webkit-tap-highlight-color: transparent;
+}
+
+a:focus{
+  outline: 0;
+}
+
 .app {
   height: 100vh;
   background-color: #16161A;
