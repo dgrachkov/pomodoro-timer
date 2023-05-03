@@ -38,17 +38,17 @@ const Settings = () => {
       <div className='container m-auto px-0'>
         <form className='block md:flex'>
           <div className='w-full'>
-            <label className='text-[15px] text-[#ededed]'>Work time</label>
+            <label className='text-[17px] text-[#ededed]'>Work time</label>
             <input
-              className='rounded-md w-full mt-1 block border border-gray-600 text-[#FFFFFE] bg-[#16161A] outline-none focus:border-[#7F5AF0] p-2'
+              className='rounded-md w-full mt-[6px] block border border-gray-600 text-[#FFFFFE] bg-[#16161A] outline-none focus:border-[#7F5AF0] py-3 px-[10px]'
               value={settingsInfo.workMinutes}
               onChange={handleChangeWork}
             />
           </div>
-          <div className='mt-4 md:mt-0 md:ml-8 w-full'>
-            <label className='text-[15px] text-[#ededed]'>Break time</label>
+          <div className='mt-6 md:mt-0 md:ml-8 w-full'>
+            <label className='text-[17px] text-[#ededed]'>Break time</label>
             <input
-              className='rounded-md w-full mt-1 block border border-gray-600 text-[#FFFFFE] bg-[#16161A] outline-none focus:border-[#7F5AF0] p-2'
+              className='rounded-md w-full mt-[6px] block border border-gray-600 text-[#FFFFFE] bg-[#16161A] outline-none focus:border-[#7F5AF0] py-3 px-[10px]'
               value={settingsInfo.breakMinutes}
               onChange={handleChangeBreak}
             />
@@ -58,7 +58,7 @@ const Settings = () => {
           <button 
             className='btn-effect cursor-pointer p-[10px] border border-gray-600 rounded-md'
             onClick={goBack}>
-            <img src='icons/apply.svg' className='w-8 h-8'/>
+            <img src='icons/apply.svg' className='w-7 sm:w-8 h-7 sm:h-8'/>
           </button>
         </div>
       </div>

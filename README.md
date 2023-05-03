@@ -1,10 +1,10 @@
-# Leacorr (Timer) 
+# Pomodoro timer 
 
-<img src='public/Leacorr.gif'>
+<img src='public/pomodoro.gif'>
 
 A **React** project using **Tailwind** and a **library for the progress bar**.
 
-Timer for time control. Set the right time in the settings and time for rest and practice as much as you want.
+Pomodoro — time management technique. Set the right time in the settings and time for rest and practice as much as you want.
 You can turn on the Lo-Fi Radio and various sounds for more comfortable work. The project is uploaded to 
 **Vercel**.
 
